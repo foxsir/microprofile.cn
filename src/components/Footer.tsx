@@ -125,7 +125,7 @@ export function Footer() {
             <Logo className="h-8" fillOnHover />
           </Link>
           <p className="text-sm text-neutral-700">
-            © Studio Agency Inc. {new Date().getFullYear()}
+            <a href={'https://beian.miit.gov.cn'} target={'_blank'}>京ICP备2024094274号-1</a> © Studio Agency Inc. {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>
